@@ -1,0 +1,26 @@
+{
+    "name" : "poan18/ramverk1-weatherModule",
+    "description": "Anax module for Weather forecasts.",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {"Anax\\": "src/"}
+    },
+    "require": {
+        "anax/anax-ramverk1-me": "^1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/poan18/ramverk1-weatherModule"
+        }
+    ],
+    "require": {
+        "anax/anax-ramverk1-me": "^1.0.0",
+        "poan18/ramverk1-weatherModule": "dev-master"
+    }
+}

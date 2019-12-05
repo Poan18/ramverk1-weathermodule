@@ -17,6 +17,7 @@
         }
     ],
     "require": {
+        "anax/anax-ramverk1-me": "^1.0.0",
         "poan18/ramverk1-weathermodule": "dev-master"
     }
 }

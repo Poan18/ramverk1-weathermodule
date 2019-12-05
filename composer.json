@@ -1,5 +1,5 @@
 {
-    "name" : "poan18/ramverk1-weatherModule",
+    "name" : "poan18/ramverk1-weathermodule",
     "description": "Anax module for Weather forecasts.",
     "license": "MIT",
     "minimum-stability": "beta",
@@ -16,11 +16,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/poan18/ramverk1-weatherModule"
+            "url": "https://github.com/poan18/ramverk1-weathermodule"
         }
     ],
     "require": {
         "anax/anax-ramverk1-me": "^1.0.0",
-        "poan18/ramverk1-weatherModule": "dev-master"
+        "poan18/ramverk1-weathermodule": "dev-master"
     }
 }

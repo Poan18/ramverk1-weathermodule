@@ -21,3 +21,5 @@ return [
     "darksky" => 'Enter darksky key here',
 ];
 ```
+
+* Add css height to the id 'map' if you want to enable the map.

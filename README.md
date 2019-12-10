@@ -4,7 +4,7 @@
  ## Installation
  * Install the module by adding the name to your composer or going to your anax installation folder and write:
  ```
- composer require pon18/ramverk1-weathermodule ^v1.0.1
+ composer require pon18/ramverk1-weathermodule ^v1.0.2
  ```
 
 * Install using scaffold postprocessing script file

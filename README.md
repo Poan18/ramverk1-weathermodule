@@ -4,12 +4,12 @@
  ## Installation
  * Install the module by adding the name to your composer or going to your anax installation folder and write:
  ```
- composer require pon18/ramverk1-weathermodule ^v1.0.2
+ composer require pon18/ramverk1-weathermodule ^v1.0.3
  ```
 
 * Install using scaffold postprocessing script file
 ```
-bash vendor/pon18/ramverk1-weathermodule/.anax/scaffhold/postprocess.d/700_weather.bash
+bash vendor/pon18/ramverk1-weathermodule/.anax/scaffold/postprocess.d/700_weather.bash
 ```
 * Create the file 'ApiKeys.php' following the file 'ApiKeys_example.php'
 ```

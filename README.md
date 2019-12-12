@@ -2,10 +2,11 @@
  Weather module for redovisa webpage within the course ramverk1.
 
  ## Installation
- * Install the module by adding the name to your composer or going to your anax installation folder and write:
+ * Install the module by adding the name to your composer or going to your anax installation folder and write(Latest version may change):
  ```
- composer require pon18/ramverk1-weathermodule ^v1.0.3
+ composer require pon18/ramverk1-weathermodule ^v1.0.4
  ```
+
 
 * Install using scaffold postprocessing script file
 ```

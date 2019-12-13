@@ -6,7 +6,7 @@ use Anax\DI\DIFactoryConfig;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test the SampleController.
+ * WeatherControllerTest.
  */
 class WeatherControllerTest extends TestCase
 {
@@ -39,7 +39,9 @@ class WeatherControllerTest extends TestCase
     }
 
 
-
+    /**
+     * Test the route "index" for false post.
+     */
     public function testindexActionPostFalse()
     {
         $request = $this->di->get("request");

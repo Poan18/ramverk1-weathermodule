@@ -1,7 +1,6 @@
 a
 memory::
 composer.lock
-/config/ApiKeys.php
 /.bin
 /build
 /vendor

@@ -23,16 +23,16 @@ class CheckWeather
      *
      * @param: array $pos where to create the curl.
      *
-     * @return object With api results
+     * @return array With api results
      */
     public function multiCurl($pos, $formats)
     {
         $lat = $pos['latitude'];
         $long = $pos['longitude'];
         $url =  "https://api.darksky.net/forecast";
-        $time = "12:00:00";
         $date = date("Y-m-d");
         $time = "12:00:00";
+        $times = 7;
 
         if ($formats == "week") {
             $times = 7;
@@ -46,8 +46,6 @@ class CheckWeather
 
         $mh = curl_multi_init();
         $chAll = [];
-
-        $newdate = date('Y-m-d', (strtotime('1 day', strtotime($date))));
 
         while ($times > 0) {
             $ch = curl_init("$url/$this->key/$lat,$long,{$date}T$time");
